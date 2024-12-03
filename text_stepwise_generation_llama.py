@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Replace this with your Hugging Face API token
-API_TOKEN = "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"
+API_TOKEN = "" # Replace with your API token
 
 # Define API URL for LLaMA 3.2-1B
 API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-3.2-1B"

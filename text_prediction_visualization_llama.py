@@ -7,7 +7,7 @@ import numpy as np
 def text_prediction_visualization_llama_app():
     # API information
     api_url = "https://api-inference.huggingface.co/models/meta-llama/Llama-3.2-1B"
-    api_token = "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"  # Replace with your API token
+    api_token = ""  # Replace with your API token
 
     # User input for initial text
     st.header("Next Word Prediction and Visualization (LLaMA 3.2-1B)")
