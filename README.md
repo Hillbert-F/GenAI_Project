@@ -17,7 +17,7 @@ Welcome to the Interactive Transformer Learning Hub, a user-friendly platform de
 
 ## Technologies Used
 - **Streamlit**: Interactive web application framework.
-- **Hugging Face Transformers**: Pre-trained Transformer models, `GPT-2`, `BERT`, `LLaMA3.2-1B`, and `Qwen2.5-Coder-0.5B-Instruct`.
+- **Hugging Face Transformers**: Pre-trained Transformer models, `GPT-2`, `BERT`, [`LLaMA3.2-1B`](https://huggingface.co/meta-llama/Llama-3.2-1B?text=Once+upon+a+time%2C), and [`Qwen2.5-Coder-0.5B-Instruct`](https://huggingface.co/Qwen/Qwen2.5-Coder-0.5B-Instruct).
 - **PyTorch**: Backend for Transformer model operations.
 
 ## Setup Instructions
@@ -56,7 +56,7 @@ streamlit run app.py
 The fine-tuning focuses on adapting `Qwen2.5-Coder` to address coding and conceptual questions for transformer beginners. This task involves demonstrating how a pre-trained model can be specialized for a unique use case.
 
 ### Data Preparation
-The dataset is derived from the [codeparrot-clean-train dataset](https://huggingface.co/datasets/codeparrot/codeparrot-clean-train). Data processing is handled using the `data_processing.ipynb notebook`, which performs the following steps:
+The dataset is derived from the [codeparrot-clean-train dataset](https://huggingface.co/datasets/codeparrot/codeparrot-clean-train). Data processing is handled using the `data_processing.ipynb` notebook, which performs the following steps:
 
 **1. Filtering**: Extracts entries relevant to transformers or general coding tasks.
 
