@@ -9,16 +9,16 @@ Welcome to the Interactive Transformer Learning Hub, a user-friendly platform de
 3. **Applications**:
     - **Text Summarization**: Generate concise summaries of lengthy texts.
     - **Text Generation**: 
-        - **Stepwise Text Generation**: Generate text one word at a time with attention visualization.
         - **Next Word Prediction**: Visualize attention weights while generating the next word.
+        - **Stepwise Text Generation**: Generate text one word at a time with attention visualization.
     - **Sentiment Analysis**: Predict the sentiment (positive, negative, neutral) of any given text.
     - **Interactive Text Input**: Experiment with Transformer-based text generation interactively.
     - **Code Q&A**: Ask coding-related questions to explore concepts and practical Transformer applications.
 
 ## Technologies Used
-- Streamlit: Interactive web application framework.
-- Hugging Face Transformers: Pre-trained Transformer models, `GPT-2`, `BERT`, `LLaMA3.2-1B`, and `Qwen2.5-Coder-0.5B-Instruct`.
-- PyTorch: Backend for Transformer model operations.
+- **Streamlit**: Interactive web application framework.
+- **Hugging Face Transformers**: Pre-trained Transformer models, `GPT-2`, `BERT`, `LLaMA3.2-1B`, and `Qwen2.5-Coder-0.5B-Instruct`.
+- **PyTorch**: Backend for Transformer model operations.
 
 ## Setup Instructions
 **1. Prerequisites**
@@ -67,7 +67,7 @@ The dataset is derived from the [codeparrot-clean-train dataset](https://hugging
 **3. Splitting**: Divides the dataset into training (`train_data.json`) and validation (`val_data.json`) subsets.
 
 ### Fine-Tuning Process
-The fine-tuning workflow is detailed in the `Qwen2.5_Fine_Tuning.ipynb` notebook. But as there are **temporarily no datasets designated for our goal**, the tuned model and is not recommended for use. The notebook was kept simply **to show the idea and logic to fine-tune a pre-trained model** to be used in a particular situation.
+The fine-tuning workflow is detailed in the `Qwen2.5_Fine_Tuning.ipynb` notebook. But as there are **temporarily no datasets designated for our goal**, the tuned model is not recommended for use. The notebook was kept simply **to show the idea and logic to fine-tune a pre-trained model** to be used in a particular situation.
 
 ## Acknowledgments
 This project was developed as part of a course on Generative AI Models in Theory and Practice, leveraging cutting-edge Transformer-based models and APIs from Hugging Face.
