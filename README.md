@@ -3,6 +3,9 @@
 ## Project Overview
 Welcome to the Interactive Transformer Learning Hub, a user-friendly platform designed to help users explore and understand Transformer models through hands-on applications. This project integrates various functionalities of Transformer-based models, including text summarization, text generation, sentiment analysis, and more, to provide a comprehensive learning experience.
 
+## Link to Video
+The presentation video was uploaded on [Youtube](https://youtu.be/0X26C5fWq68).
+
 ## Features
 1. **Homepage**: An introduction to the platform, outlining the functionalities and their real-world applications.
 2. **Help Page**: A detailed guide on how to use the platform, with explanations of adjustable parameters.
